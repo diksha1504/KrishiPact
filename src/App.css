@@ -1,6 +1,19 @@
-.App {
+/* src/App.css */
+.title {
   text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
 }
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -29,10 +42,3 @@
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
