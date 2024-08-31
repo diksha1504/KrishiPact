@@ -1,0 +1,63 @@
+.contract-manager {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contract-manager h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contract-manager h3 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contract-manager form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contract-manager input[type="text"],
+.contract-manager input[type="date"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contract-manager input[type="text"]:focus,
+.contract-manager input[type="date"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.contract-manager button[type="submit"] {
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contract-manager button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.contract-manager button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
